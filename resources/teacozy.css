@@ -1,0 +1,232 @@
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    font-size: 2.272rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+h4 {
+    font-size: 1.3rem;
+}
+h5 {
+    font-size: 1.2rem;
+}
+
+
+
+/**************************************
+        Header
+*************************************/
+
+header {
+    position: fixed;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 100;  
+}
+.brand {
+    display: inline-block;
+    flex: 1 2 100%;
+    min-height: 50px;
+    align-content: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    text-align: left;
+    width: 50%;
+    margin: 0 0 0 10px;
+}
+.nav {
+    display: inline-block;
+    flex: 2 1 100%;
+    align-content: center;
+    width: 50%;
+    text-align: right;
+    padding-right: 1rem;
+}
+.nav a {
+    align-content: center;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+.nav a:link {
+    color: seashell
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/**********************************
+        Main
+***********************************/
+
+main {
+    position: relative;
+    margin-top: 70px;
+}
+
+
+/**********************************
+           TOM
+**********************************/
+
+.hero {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: url('images/img-mission-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 98%;
+    margin: 0 auto;
+    
+}
+.mission {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-content: center;
+}
+.tom {
+    width: 80%;
+    margin: 0 auto;
+}
+.tom_header {
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.tom_img img {
+    width: 300px;
+    height: 200px;
+}
+.tom_img p {
+    text-align: center;
+}
+
+
+/**************************************
+        Locations
+**************************************/
+
+.locations_section {
+    background: url('images/img-locations-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 98%;
+    margin: 0 auto;
+
+}
+.locations_section h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  
+}
+.loc_title {
+    position: absolute;
+    font-size: 2rem;
+    text-align: ;center;
+    margin-top: 4rem;
+    width: 100%;
+   
+}
+
+.locations_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    
+   
+}
+.locations_wrapper div {    
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 0 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.locations_wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.locations_wrapper li {
+    line-height: 4rem;
+}
+
+/************************************
+        Footer
+************************************/
+footer {
+    height: 200px;
+    text-align: center;
+    margin-top: 2rem;
+}
+footer span {
+    font-size: 2.5rem;
+    
+}
+subfooter p {
+    font-size: .9rem;
+}
+
+
+
+
+
+
+
+/********************************************
+        Borders
+********************************************/
+/*
+header {
+    border: 1px solid yellow;
+}
+.brand {
+    border: 1px dotted tomato;
+}
+.nav {
+    border: 1px dotted white;
+}
+*/
